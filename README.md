@@ -1,7 +1,7 @@
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://azuredeploy.net/)
-
-
 # Ghost-Azure 
+## Updated Deploy to Azure button
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fzrwdaniel%2FGhost-Azure%2Fazure%2Fazuredeploy.json)
+
 ## Why Ghost-Azure?
 Straight out of the box, the current 1.x and 2.x versions of Ghost aren't compatible with the Azure App Service. Ghost-Azure resolves this by providing a production-ready template which can be hosted directly on Azure App Service. In the background, an Azure Function ([Ghost-Release-Uploader](https://github.com/RadoslavGatev/Ghost-Release-Uploader)) makes sure that this repository stays up-to-date with the latest releases of Ghost.
 
